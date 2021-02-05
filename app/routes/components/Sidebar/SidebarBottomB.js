@@ -15,7 +15,6 @@ import {
 import { randomAvatar } from './../../../utilities';
 
 import { DropdownProfile } from '../Dropdowns/DropdownProfile';
-import { FooterAuth } from '../Pages/FooterAuth';
 import { FooterText } from '../FooterText';
 
 const SidebarBottomB = () => (
@@ -86,11 +85,6 @@ const SidebarBottomB = () => (
                 </div>
             </Sidebar.ShowSlim>
             { /* END SLIM Only View  */ }
-            { /* START DESKTOP View */ }
-            <Sidebar.HideSlim>
-                <FooterAuth />
-            </Sidebar.HideSlim>
-            { /* END DESKTOP View */ }
             { /* START SLIM Only View */ }
             <Sidebar.ShowSlim>
                 <div className="text-center">
