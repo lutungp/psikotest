@@ -18,9 +18,6 @@ import Reports from './Dashboards/Reports';
 import { DefaultNavbar } from './../layout/components/DefaultNavbar';
 import { DefaultSidebar } from './../layout/components/DefaultSidebar';
 
-import { SidebarANavbar } from './../layout/components/SidebarANavbar';
-import { SidebarASidebar } from './../layout/components/SidebarASidebar';
-
 //------ Route Definitions --------
 // eslint-disable-next-line no-unused-vars
 export const RoutedContent = () => {
