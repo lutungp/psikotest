@@ -9,7 +9,6 @@ import {
 import { SidebarMiddleNav } from './SidebarMiddleNav';
 
 import { SidebarTopA } from '../../routes/components/Sidebar/SidebarTopA'
-import { SidebarBottomA } from '../../routes/components/Sidebar/SidebarBottomA'
 import { LogoThemed } from '../../routes/components/LogoThemed/LogoThemed';
 
 export const DefaultSidebar = () => (
@@ -40,8 +39,6 @@ export const DefaultSidebar = () => (
                 { /* SIDEBAR: Menu */ }
                 <SidebarMiddleNav />
             </Sidebar.Section>
-
-            <SidebarBottomA />
         </Sidebar.MobileFluid>
         { /* END SIDEBAR: Only for Mobile */ }
     </Sidebar>
